@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newwhatwhat</title>
+  <style>
+  
+  body{
+        background-image: url(./loginImg\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;   
+    }
+
+    .mainContainer{
+        display: flex;
+        height: 100%;    
+    }
+
+    
+
+    .emptyArea,.formArea{
+       display: flex;
+       flex-direction: column;
+       gap: 5%;
+        width: 50%;
+        height: 100%;
+        padding: 20px;
+        height: 100%;
+    }
+
+    .loginForm{
+        height: 60%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        gap: 10px;
+        border-bottom-right-radius: 500px;
+        box-shadow: 0 3px 0 0 rgb(236, 235, 235);  
+    }
+
+    .topInput{
+        height:40px;
+        border: 0.5px solid grey;
+        box-shadow: 2px grey;
+        border-bottom-right-radius: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .bottomInput{
+border: 0.5px solid grey;
+height:40px;
+width: 90%;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+border-bottom-right-radius: 200px;
+}
+    
+
+    button{
+        width: 100%;
+        background-color: blue;
+        color: white;
+        height: 30px;
+        border: none;
+        border-radius: 20px;
+    }
+
+    input{
+        width:90%;
+        background-color:lightblue;
+        border: none;
+    }
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    gap: 40%;
+    box-shadow: 2px 2px 2px 1px rgb(236, 235, 235);
+    height: 35%;
+    background-color: white;
+    border-top-left-radius: 200px;   
+}
+
+.btn{
+    padding-top:1%;
+}
+
+.footerText{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.FooterHeading{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+    .login{
+        font-size: 2em;
+        color: blue;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
+   
+
+    .welcome{
+
+        font-size: 1.5em;
+    }
+
+    .subHeading{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    };
+    </style>
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="emptyArea">
+            
+        </div>
+        <div class="formArea">
+            <div class="login">LOGIN</div>
+            <div class="loginForm">
+               <div class="welcome">Welcome!</div>
+                <div class="subHeading">Believe in yourself and you will be unstoppable</div>
+                <div class="topInput" ><input type="text" placeholder="Email" id="useerName"></div>
+                <div class="bottomInput"><input type="text" placeholder="Password" id="accessCode"></div>
+            </div>
+            <div class="footer">
+                <div class="footerText"><div class="FooterHeading"> A better me is comig</div>
+                <div class="footerSlogan">All things are possible</div></div>
+                <div class="btn"><button>Login</button></div>
+            </div>
+        </div>
+
+    </div>
+
+
+    
+<script src="./registerScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+
+background-image: url(./loginImg\ \(1\).jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 80vh;  
+display: flex; 
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+align-content: center;
+padding: 3%;
+
+}
+
+.registerForm{
+    width: 60%;
+    height: 75%;
+    background-color: lightblue;
+    
+    box-shadow: 2px 2px 2px 2px grey;
+    display: flex;
+    
+flex-direction: column;
+align-items: center;
+align-content: center;
+justify-content: center;
+
+
+
+}
+
+.heading{
+
+    font-size: 2em;
+    font-weight: bolder;
+    padding-bottom: 3%;
+    color: blue;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+input{
+
+    width: 90%;
+    height: 10%;
+    font-weight: bolder;
+
+    
+    
+}
+
+
+form{
+    width: 80%;
+    padding:5%;
+    font-size: 1.15em;
+    display: flex;
+    flex-direction:column;
+};
+    
+
+
+.submit{
+
+    background-color: green;
+    border: none;
+    color: whitesmoke;
+    font-size: 1.25em;
+}
+
+
+.table{
+    width: 100%;
+    border: none;
+    height: 20%;
+    padding: 1%;
+    box-shadow: 2px 2px 2px 2px grey;
+    display: flex;
+    flex-direction: column; 
+    background-color: lightblue;
+
+}
+
+
+
+
+.buttons{
+
+    height: 10%;
+    
+}
+
+th{
+
+    background-color: white;
+    border: none
+    
+}
+
+table{
+
+
+   font-weight: bold;
+    text-align: center;
+   
+    border: 1PX solid blue;
+    
+}
+
+button{
+
+    
+    width: 20%;
+    box-shadow: 1px 1px 1px 1px grey;
+    
+    
+}
+
+.tableHearder{
+
+   font-family: sans-serif;
+   font-weight: bolder;
+   color: blue;
+  
+   
+}
+
+tr {
+            
+          border: 1px solid white; 
+            
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="registerForm">
+        <di>FILL IN THE FORM</di>
+        
+            <form id="myForm">
+                <div class="formLabels"> First Name:</div>
+               
+                <input type="text" id="nameInput">
+
+                <label for="lname">Last Name:</label>
+                <input type="text"  id="surnameInput">
+                
+                <label for="fname">e-mail:</label>
+                <input type="email" id="emailInput">
+
+                <label for="lname" >Contact:</label>
+                <input type="text" id="passwordInput">
+               
+               <label for="fname">Password:</label>
+                <input type="password" id="contactInput">
+
+              
+                
+
+                <label for="lname"> Confirm Password:</label>
+                <input type="text" id="confirmPasswordInput">
+                <br>
+                
+                <center><button type="submit"  class="submit">SUBMIT</button></center>
+              </form> 
+              
+
+
+
+        
+    </div>
+
+
+
+    <div class="table">
+
+        <div class="buttons">
+
+            <button onclick="removeLastEntry()">REMOVE</button>
+
+        </div><br>
+
+        <table id="dataTable">
+            <tr class="tableHearder">
+                
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>E-mail</th>
+                <th>Contact</th>
+                <th>Password</th>
+              
+            </tr>
+        
+        </table>
+
+   
+
+
+
+    <script src="./registerScript.js"></script>
+    
+    
+</body>
+</html>

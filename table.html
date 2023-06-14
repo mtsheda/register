@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+    body{
+    
+
+background-image: url(./loginImg\ \(1\).jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 80vh;  
+display: flex; 
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
+
+}
+
+.table{
+    width: 80%;
+    height:60%;
+    background-color: lightblue;
+    padding: 1%;
+    box-shadow: 2px 2px 2px 2px grey;
+    display: flex;
+    flex-direction: column; 
+
+}
+
+
+
+
+.buttons{
+
+    height: 10%;
+    
+}
+
+table{
+
+    height: 90%;
+    padding: 5%;
+    box-shadow: 2px 2px 2px 2px blue;
+    color: rgb(58, 57, 57);
+}
+
+button{
+
+    height: 100%;
+    width: 20%;
+    box-shadow: 1px 1px 1px 1px grey;
+    font-weight: bolder;
+}
+
+.tableHearder{
+
+   font-family: sans-serif;
+   font-weight: bolder;
+   color: white;
+   background-color:blue;
+}
+
+.th {
+            border: 1px solid black;
+            padding: 5px;
+            
+        }
+
+
+    
+    </style>
+</head>
+<body>
+
+    <div class="table">
+
+        <div class="buttons">
+
+            <Button>ADD</Button>
+            <button onclick="removeLastEntry()">REMOVE</button>
+        </div>
+
+        <table id="myTable">
+            <tr class="tableHearder">
+                
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Contact</th>
+                <th>E-mail</th>
+                <th>Password</th>
+              
+            </tr>
+           <!-- <tr>
+                <td>1.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Nokwazi</td>
+                <td>Nkosi</td>
+                <td>078 9562 7856</td>
+                <td>nokwazi.nkosi@ekurhulreni.gov.za</td>
+                <td>@Coe2023</td>
+                
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>TSHEPO</td>
+                <td>MAFORA</td>
+                <td>0672637468</td>
+                <td>tmafora2@gmail.com</td>
+                <td>@Coe2020</td>
+            </tr>-->
+        </table>
+    </div>
+    <script src="./registerScript.js"></script>
+</body>
+</html>
